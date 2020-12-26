@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<TextView
+android:id="@+id/msg"
+android:text="請輸入伺服器 IP:"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"/>
+<EditText
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:inputType="textPostalAddress"
+android:ems="10"
+android:id="@+id/edit" />
+<Button
+android:text="Send"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/get_msg"
+android:layout_below="@+id/edit"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true" />
+<TextView
+android:layout_width="match_parent"
+android:layout_height="60dp"
+android:id="@+id/textView2" />
+<Button
+android:text="STOP"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/stop" />
+    </LinearLayout>
+</LinearLayout>
+
